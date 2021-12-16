@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import childrens from "../../images/childrens.svg";
 
 export const LandingPageContainer = styled.div`
   background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
@@ -14,7 +15,7 @@ export const ContentWrapper = styled.div`
   height: 100%;
   max-height: 680px;
 
-  background: url("../../images/landing.svg") no-repeat 80% center;
+  background: url(${childrens}) no-repeat 80% center;
 
   main {
     max-width: 350px;
